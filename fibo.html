@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head>
+  <script type="text/javascript>
+                function f(n)
+                {
+                  if (n==0)
+                    return(0);
+                  else if (n==1)
+                      return 1;
+                   else 
+                  return (f(n-1)+f(n-2));
+                }
+                var n;
+                n = window.prompt("Enter a number");
+                n = parseInt(n)
+                var i;
+                document.write("The Fibo series are"+"<br>");
+                for(i=0;i<n;i++)
+                document.write(f(i));
+   </script>
+   </head>
+   </html>            
